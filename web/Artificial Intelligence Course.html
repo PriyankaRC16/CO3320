@@ -1,0 +1,83 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>My Courses</title>
+  
+  <link href="newcss1.css" rel="stylesheet" type="text/css">
+  <link href="newcss2.css" rel="stylesheet" type="text/css">
+  <link href="newcss3.css" rel="stylesheet" type="text/css">
+ <script>
+     
+     function myAttendance(){
+         location.replace("View your past attendance.html");
+     }
+
+function myExamSchedule(){
+    location.replace("Exam Schedule.html");
+}
+function myGrades(){
+    location.replace("Grades.html");
+}
+function myHomepage(){
+    location.replace("Homepage of SIM Portal.html");
+}
+
+
+</script>
+ 
+</head>
+<body class="body">
+    <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg" width="136" alt="" class="logo-for-sim"></a>
+    <form action="/search" class="search-bar"><input type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required=""><input type="submit" value="Search" class="button-for-search w-button"></form><img src="images/Group-180.png" alt="" class="logo-icon">
+  </div>
+  <div class="main-dashboard">
+    <div class="main-div">
+      <h1 class="big-text">Artificial Intelligence</h1>
+      <div class="lecture-notes-text">Lecture Notes</div>
+      <a href="documents/Artificial Intelligence_lecture 1_Student.pdf" class="co3310-lecture-1" download>Artificial Intelligence Lecture 1</a>
+      <a href="documents/Artificial Intelligence_lecture 2_Student.pdf" class="co3310-lecture-2" download>Artificial Intelligence Lecture 2</a>
+      <a href="documents/Artificial Intelligence - A Modern Approach 3rd Ed - Stuart Russell and Peter Norvig, Berkeley (2010).pdf" class="co3310-lecture-3" download>Artificial Intelligence Lecture 3</a>
+      <div class="past-year-paper-text">Past Year Papers</div>
+      <a href="documents/co3310_exp17_za.pdf" class="_2017-za" download>2017 ZA Past Year Paper</a>
+      <a href="documents/co3310_exp17_zb.pdf" class="_2017-zb" download>2017 ZB Past Year Paper</a>
+    </div>
+  </div>
+  <div class="nav-left-homepage">
+    <a onclick="myAttendance()" class="attendance w-inline-block"></a>
+    <div class="div-nav-left"><img src="images/Vector.png" alt="" class="nav-left-icon">
+      <div class="bold-text-for-nav-left-text">Attendance</div>
+    </div>
+    <div class="div-nav-left">
+      <a class="highlighted-courses w-inline-block"></a><img src="images/bx_bx-book.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text"><strong>My Courses</strong></div>
+    </div>
+    <div class="div-nav-left">
+      <a onclick="myExamSchedule()" class="exam-schedule w-inline-block"></a><img src="images/ant-design_schedule-outlined.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Exam Schedule</div>
+    </div>
+    <div class="div-nav-left">
+      <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Vector-1.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Grades</div>
+    </div>
+    <div class="div-nav-left"><img src="images/fluent_payment-16-regular.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Payment</div>
+    </div>
+    <div class="div-nav-left"><img src="images/Vector-2.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Resources</div>
+    </div>
+    <div class="div-nav-left"><img src="images/bx_bx-news.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Newsletter</div>
+    </div>
+    <div class="div-nav-left"><img src="images/cil_education.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Graduation Apply</div>
+    </div>
+    <div class="div-nav-left"><img src="images/bx_bx-support.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Support</div>
+    </div>
+    <div class="div-nav-left"></div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,102 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Exam Schedule</title>
+ 
+ 
+  <link href="newcss1.css" rel="stylesheet" type="text/css">
+  <link href="newcss2.css" rel="stylesheet" type="text/css">
+  <link href="newcss3.css" rel="stylesheet" type="text/css">
+  <script> function myAttendance(){
+         location.replace("View your past attendance.html");
+     }
+
+function myCourses(){
+    location.replace("My Courses.html");
+}
+
+function myGrades(){
+    location.replace("Grades.html");
+}
+function myHomepage(){
+    location.replace("Homepage of SIM Portal.html");
+}
+
+</script>
+</head>
+<body class="body">
+    <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg"  width="136" alt="" class="logo-for-sim"></a>
+    <form action="/search" class="search-bar"><input type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required=""><input type="submit" value="Search" class="button-for-search w-button"></form><img src="images/Group-180.png" alt="" class="logo-icon">
+  </div>
+  <div class="main-dashboard">
+    <div class="main-div">
+      <h1 class="big-text">Exam Schedule</h1>
+      <div class="dashboard-div">
+        <div class="cards">
+          <a href="#" class="exam-schedule-cards w-button" style="padding-top:30px; display:flex;">
+             <div style="margin-right:130px">
+              <strong>
+                  31st Aug 2021    <br>   2pm-4:45pm    </strong> </div>
+              <div>CO3310 - Artificial Intelligence<br>GRAND HALL, BLK B</div></a>
+          
+            <a href="#" class="exam-schedule-cards w-button" style="padding-top:30px; display:flex;">
+             <div style="margin-right:130px">
+              <strong>
+                  1st Sept 2021    <br>   2pm-4:45pm    </strong> </div>
+              <div>CO3348 - Interaction Design<br>GRAND HALL, BLK B</div></a>
+            
+            <a href="#" class="exam-schedule-cards w-button" style="padding-top:30px; display:flex;">
+             <div style="margin-right:130px">
+              <strong>
+                  5th Sept 2021    <br>   2pm-4:45pm    </strong> </div>
+              <div>CO3311 - Neural Networks<br>GRAND HALL, BLK B</div></a>
+            
+            <a href="#" class="exam-schedule-cards w-button" style="padding-top:30px; display:flex;">
+             <div style="margin-right:130px">
+              <strong>
+                  10th Sept 2021    <br>   2pm-4:45pm    </strong> </div>
+              <div>CO3323 - Electronic Commerce<br>GRAND HALL, BLK B</div></a>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-left-homepage">
+    <div class="div-nav-left">
+      <a onclick="myAttendance()" class="attendance-div w-inline-block"></a><img src="images/Vector.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Attendance</div>
+    </div>
+    <div class="div-nav-left">
+      <a onclick="myCourses()" class="courses w-inline-block"></a><img src="images/bx_bx-book.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">My Courses</div>
+    </div>
+    <div class="div-nav-left"><img src="images/ant-design_schedule-outlined.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text"><strong>Exam Schedule</strong></div>
+      <div class="highlighted-exam-schedule"></div>
+    </div>
+    <div class="div-nav-left">
+      <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Vector-1.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Grades</div>
+    </div>
+    <div class="div-nav-left"><img src="images/fluent_payment-16-regular.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Payment</div>
+    </div>
+    <div class="div-nav-left"><img src="images/Vector-2.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Resources</div>
+    </div>
+    <div class="div-nav-left"><img src="images/bx_bx-news.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Newsletter</div>
+    </div>
+    <div class="div-nav-left"><img src="images/cil_education.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Graduation Apply</div>
+    </div>
+    <div class="div-nav-left"><img src="images/bx_bx-support.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Support</div>
+    </div>
+    <div class="div-nav-left"></div>
+  </div>
+  
+</body>
+</html>

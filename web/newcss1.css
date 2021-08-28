@@ -1,0 +1,1021 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sim-logo {
+  position: relative;
+  right: -871px;
+  margin-right: auto;
+  margin-left: 6px;
+  padding-right: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.field-label {
+  position: relative;
+  bottom: -33px;
+  margin-bottom: -16px;
+  background-clip: content-box;
+}
+
+.body {
+  margin-bottom: -405px;
+  padding-bottom: 0px;
+}
+
+.logo-icon {
+  position: relative;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+}
+
+.calendar-image {
+  position: relative;
+  margin-right: -1px;
+  margin-left: 97px;
+  padding-top: 0px;
+}
+
+.big-text {
+  position: relative;
+  top: auto;
+  color: #009460;
+}
+
+.attendance-format-cards {
+  position: relative;
+  width: 500px;
+  max-width: 400px;
+  min-height: 100px;
+  min-width: 458px;
+  margin-bottom: 44px;
+  border: 1px solid #13573f;
+  background-color: #13573f !important;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.input {
+  position: relative;
+  width: 60%;
+  max-width: 1016px;
+  min-width: 200px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: 138px;
+}
+
+.search-bar {
+  position: relative;
+  left:-100px;
+  height:10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  min-width: 207px;
+  margin-left: -55px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.body-text {
+  position: relative;
+  margin-top: 16px;
+  padding-left: 0px;
+}
+
+.button-for-search {
+  position: relative;
+  margin-right: 4px;
+  margin-left: 3px;
+  padding: 9px 45px 7px 45px;
+  background-color: #009460;
+  width:15%;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 37px;
+  margin-bottom: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.logo-for-sim {
+  position: relative;
+  display: inline-block;
+}
+
+.navigation---top {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-left-homepage {
+  position: absolute;
+  left: 17px;
+  top: 100px;
+  width: 150px;
+}
+
+.div-nav-left {
+  padding-top: 37px;
+  padding-bottom: 0px;
+  background-color: transparent;
+}
+
+.nav-left-text {
+  position: relative;
+  left: 43px;
+  top: -23px;
+  z-index: 1;
+  padding-bottom: 0px;
+  color: #000;
+}
+
+.nav-left-icon {
+  position: relative;
+  z-index: 1;
+}
+
+.main-dashboard {
+  position: relative;
+  left: 65px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: 149px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.log-in-button {
+  position: relative;
+  top: 153px;
+  width: 500px;
+  max-width: 500px;
+  background-color: #009460;
+}
+
+.forgot-password-text {
+  position: absolute;
+  top: 190px;
+  margin-top: 13px;
+  margin-left: 44px;
+}
+
+.heading-sim-portal {
+  color: #009460;
+}
+
+.question-mark-icon {
+  position: absolute;
+  top: 195px;
+}
+
+.email-address-text-field {
+  max-width: 500px;
+}
+
+.password-text-field {
+  max-width: 500px;
+}
+
+.background-image {
+  height: 442px;
+}
+
+.form-for-login-credentials {
+  position: relative;
+  top: -59px;
+}
+
+.dashboard-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 35px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.main-div {
+  width: 100%;
+  height: 900px;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: 30px;
+  padding-right: 0px;
+  padding-left: 47px;
+}
+
+.attendance-cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 43px;
+  margin-bottom: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.homepage-cards {
+  position: relative;
+  min-height: 100px;
+  min-width: 500px;
+  margin-bottom: 44px;
+  border: 1px solid #009460;
+  background-color: #009460;
+  font-weight: 700;
+  white-space: normal;
+  display: flex;
+}
+
+._95-attendance-rate {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 31px;
+  height: 100px;
+  margin-top: 288px;
+  margin-bottom: 0px;
+  margin-left: 427px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #009460;
+}
+
+._90-attendance-rate {
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 68px;
+  height: 99px;
+  margin-top: 144px;
+  margin-bottom: 15px;
+  margin-left: 391px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #009460;
+}
+
+._90-text {
+  margin-top: -15px;
+  margin-left: -65px;
+  color: #fff;
+  font-weight: 700;
+}
+
+._95-text {
+  margin-left: -107px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.highlighted-attendance {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 130px;
+  height: 60px;
+  margin-top: 17px;
+  margin-left: -3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #c1fde8;
+}
+
+.bold-text-for-nav-left-text {
+  position: relative;
+  left: 43px;
+  top: -23px;
+  z-index: 1;
+  padding-bottom: 0px;
+  color: #000;
+}
+
+.present-card {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  max-width: 400px;
+  min-height: 80px;
+  min-width: 458px;
+  margin-bottom: 44px;
+  border: 1px solid #009460;
+  background-color: #009460;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.absent-card {
+  position: relative;
+  width: 500px;
+  max-width: 400px;
+  min-height: 80px;
+  min-width: 458px;
+  margin-bottom: 44px;
+  border: 1px solid #b2b07f;
+  background-color: #b2b07f !important;
+  color: #000 !important;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.text-field {
+  width: 600px;
+}
+
+.attendance-appeal-submit {
+  position: absolute;
+  left: 339.5px;
+  top: 376px;
+  width: 600px;
+  margin-top: 156px;
+  margin-left: -290px;
+  padding-left: 12px;
+  background-color: #009460;
+}
+
+.image-attachment {
+  margin-top: 21px;
+}
+
+.date-and-time-text {
+  margin-top: -1px;
+  padding-bottom: 8px;
+}
+
+.reason-text {
+  padding-top: 22px;
+}
+
+.attendance-div {
+  position: absolute;
+  top: 84px;
+  width: 150px;
+  margin-top: -63px;
+  padding-top: 62px;
+}
+
+.button {
+  width: 510px;
+  margin-top: 50px;
+  background-color: #009460;
+  text-align: center;
+  font-weight: bold;
+}
+
+.exam-schedule-cards {
+  position: relative;
+  min-height: 100px;
+  min-width: 500px;
+  margin-bottom: 44px;
+  border: 1px solid #009460;
+  background-color: #009460;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.courses {
+  position: absolute;
+  width: 150px;
+  margin-top: -15px;
+  padding-top: 62px;
+  background-color: transparent;
+}
+
+.courses.w--current {
+  left: -3px;
+  top: 38px;
+  margin-top: -18px;
+  background-color: #c1fde8;
+}
+
+.exam-schedule {
+  position: absolute;
+  width: 150px;
+  margin-top: -15px;
+  padding-top: 62px;
+}
+
+.grades {
+  position: absolute;
+  width: 150px;
+  margin-top: -15px;
+  padding-top: 62px;
+}
+
+.highlighted-exam-schedule {
+  height: 70px;
+  max-height: 100px;
+  max-width: 310px;
+  margin-top: -72px;
+  margin-left: -10px;
+  border: 1px solid #c1fde8;
+  background-color: #c1fde8;
+}
+
+.co3310 {
+  width: 175px;
+  max-width: 106%;
+  margin-top: 18px;
+  position:relative;
+  left:3px;
+}
+
+.lecture-notes-text {
+  margin-top: 50px;
+}
+
+.co3310-lecture-1 {
+  position: relative;
+  top: 28px;
+  align-content: space-evenly;
+}
+
+.co3310-lecture-2 {
+  position: absolute;
+  left: 340px;
+  top: 218px;
+  
+  
+}
+
+.past-year-paper-text {
+  margin-top: 233px;
+}
+
+._2017-za {
+  position: relative;
+  top: 36px;
+}
+
+.co3310-lecture-3 {
+  position: absolute;
+  left: 200px;
+  top: 228px;
+  margin-top: 41px;
+  margin-bottom: -29px;
+  margin-left: 33px;
+  align-content: space-evenly;
+}
+
+._2017-zb {
+  position: relative;
+  left: -165px;
+  top: 85px;
+}
+
+.highlighted-courses {
+  position: absolute;
+  width: 150px;
+  margin-top: -15px;
+  padding-top: 62px;
+  background-color: #c1fde8;
+}
+
+.highlighted-courses.w--current {
+  left: -3px;
+  top: 38px;
+  margin-top: -18px;
+  background-color: #c1fde8;
+}
+
+.attendance {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 130px;
+  height: 60px;
+  margin-top: 17px;
+  margin-left: -3px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.co3310-button {
+  position: relative;
+  top: 126px;
+  width: 177px;
+  height: 50px;
+  margin-top: -99px;
+  margin-bottom: 79px;
+  margin-left: -177px;
+  padding-top: 0px;
+  border: 1px solid #009460;
+  background-color: #009460;
+}
+
+.bold-text {
+  margin-left: 12px;
+}
+
+.co3348 {
+  margin-top: 29px;
+  margin-left: 183px;
+  position:relative;
+  left:4px;
+}
+
+.co3348-button {
+  position: relative;
+  left: -3px;
+  top: 130px;
+  width: 171px;
+  height: 55px;
+  margin-top: -115px;
+  margin-bottom: 137px;
+  margin-left: -167px;
+  border: 1px solid #009460;
+  background-color: #009460;
+}
+
+.co3311 {
+  position: relative;
+  left: -470px;
+  top: 325px;
+  margin-top: 7px;
+  margin-left: -237px;
+}
+
+.co3311-button {
+  position: relative;
+  left: -549px;
+  top: 454px;
+  width: 170px;
+  height: 56px;
+  margin-top: -60px;
+  margin-bottom: 68px;
+  margin-left: -94px;
+  border: 1px solid #009460;
+  background-color: #009460;
+}
+
+.co3323 {
+  position: relative;
+  left: -219px;
+  top: 325px;
+  width: 177px;
+  margin-top: 7px;
+  margin-left: -147px;
+}
+
+.co3323-button {
+  position: relative;
+  left: -175px;
+  top: 454px;
+  width: 177px;
+  height: 54px;
+  margin-top: -44px;
+  margin-bottom: 126px;
+  border: 1px solid #009460;
+  background-color: #009460;
+}
+
+.image-105 {
+  margin-top: -1px;
+}
+
+.highlighted-grades {
+  position: relative;
+  top: -18px;
+  width: 140px;
+  height: 50px;
+  max-width: 160px;
+  margin-top: -39px;
+  background-color: #c1fde8;
+}
+
+.grades-cards {
+  position: relative;
+  top: -130px;
+  min-height: 100px;
+  min-width: 500px;
+  margin-top: 30px;
+  margin-bottom: 128px;
+  margin-left: 149px;
+  padding-bottom: 0px;
+  border: 1px solid #13573f;
+  background-color: #13573f !important;
+  font-size: 17px;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.co3310-ai {
+  width: 152px;
+  height: 99px;
+}
+
+.co3348-id {
+  margin-top: -217px;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+@media screen and (min-width: 1920px) {
+  .sim-logo {
+    left: 1746px;
+  }
+
+  .body {
+    padding-top: 0px;
+  }
+
+  .logo-icon {
+    left: 516px;
+    top: 166px;
+    right: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .calendar-image {
+    position: relative;
+    left: 100px;
+    top: 778px;
+  }
+
+  .big-text {
+    top: 82px;
+  }
+
+  .attendance-format-cards {
+    left: -664px;
+    top: 144px;
+    width: 50%;
+  }
+
+  .input {
+    left: -398px;
+    width: 1200px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .body-text {
+    top: 109px;
+  }
+
+  .button-for-search {
+    left: 118px;
+    top: 110px;
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .cards {
+    position: relative;
+    width: 30%;
+    max-width: 1280px;
+    min-width: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .logo-for-sim {
+    left: -886px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .navigation---top {
+    top: -120px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+
+  .nav-left-homepage {
+    position: relative;
+    left: -1px;
+    top: -250px;
+    display: inline-block;
+    width: 100%;
+    max-width: 180px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .div-nav-left {
+    position: relative;
+    left: 23px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .nav-left-text {
+    position: relative;
+    left: 58px;
+    top: 0px;
+    padding-bottom: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .nav-left-icon {
+    position: relative;
+  }
+
+  .main-dashboard {
+    position: relative;
+    left: 223px;
+    top: 347px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .log-in-button {
+    position: relative;
+    left: 1px;
+    top: 229px;
+    width: 900px;
+    max-width: 700px;
+    background-color: #009460;
+  }
+
+  .forgot-password-text {
+    position: relative;
+    left: 43px;
+    top: 65px;
+  }
+
+  .heading-sim-portal {
+    position: relative;
+    left: 0px;
+    color: #009460;
+  }
+
+  .question-mark-icon {
+    position: relative;
+    top: 236px;
+  }
+
+  .main-columns {
+    position: relative;
+    top: 121px;
+    margin-top: -44px;
+    margin-bottom: -145px;
+  }
+
+  .login-credentials {
+    padding-left: 78px;
+  }
+
+  .email-address-text-field {
+    position: relative;
+    width: 900px;
+    max-width: 700px;
+  }
+
+  .password-text-field {
+    max-width: 700px;
+  }
+
+  .background-image {
+    position: static;
+    height: 700px;
+  }
+
+  .attendance-cards {
+    position: relative;
+    width: 30%;
+    max-width: 1280px;
+    min-width: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .homepage-cards {
+    left: -664px;
+    top: 144px;
+    width: 50%;
+  }
+
+  .bold-text-for-nav-left-text {
+    position: relative;
+    left: 58px;
+    top: 0px;
+    padding-bottom: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .present-card {
+    left: -664px;
+    top: 144px;
+    width: 50%;
+  }
+
+  .absent-card {
+    left: -664px;
+    top: 144px;
+    width: 50%;
+  }
+
+  .exam-schedule-cards {
+    left: -664px;
+    top: 144px;
+    width: 50%;
+  }
+
+  .grades-cards {
+    left: -664px;
+    top: 144px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .big-text {
+    top: -191px;
+  }
+}

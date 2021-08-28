@@ -1,0 +1,113 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>CO3348 Interaction Design</title>
+ 
+    <link href="newcss1.css" rel="stylesheet" type="text/css">
+  <link href="newcss2.css" rel="stylesheet" type="text/css">
+  <link href="newcss3.css" rel="stylesheet" type="text/css">
+ <script>
+function myCourses(){
+    location.replace("My Courses.html");
+}
+function myExamSchedule(){
+    location.replace("Exam Schedule.html");
+}
+function myGrades(){
+    location.replace("Grades.html");
+}
+
+function myHomepage(){
+    location.replace("Homepage of SIM Portal.html");
+}
+
+
+</script>
+  
+</head>
+<body class="body">
+    <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg"  width="136" alt="" class="logo-for-sim"></a>
+    <form action="/search" class="search-bar"><input type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required=""><input type="submit" value="Search" class="button-for-search w-button"></form><img src="images/Group-180.png" alt="" class="logo-icon">
+  </div>
+  <div class="main-dashboard">
+    <div class="main-div">
+      <h1 class="big-text">View your past attendance</h1>
+      <div class="body-text">CO3348 Interaction Design = 90%</div>
+      <div class="dashboard-div">
+        <div class="attendance-cards">
+            <a href="#" class="present-card w-button" style="padding-top:20px; display:flex;">
+               <div style="margin-right:200px">
+                <strong>
+                  1st May 2021    <br>  8:30am-11:30am  </strong> </div>
+              <div>PRESENT</div></a>
+            
+            <a href="#" class="present-card w-button" style="padding-top:20px; display:flex;">
+               <div style="margin-right:200px">
+                <strong>
+                  8th May 2021    <br>  8:30am-11:30am  </strong> </div>
+              <div>PRESENT</div></a>
+        
+          
+            <a href="#" class="present-card w-button" style="padding-top:20px; display:flex;">
+               <div style="margin-right:200px">
+                <strong>
+                  15th May 2021    <br>  8:30am-11:30am  </strong> </div>
+              <div>PRESENT</div></a>
+            
+          <a href="#" class="absent-card w-button" style="padding-top:20px; display:flex;">
+              <div style="margin-right:200px">
+                <strong>
+                  22nd May 2021    <br>  8:30am-11:30am  </strong> </div>
+              <div>ABSENT</div></a>
+          
+            <a href="#" class="absent-card w-button" style="padding-top:20px; display:flex;">
+              <div style="margin-right:200px">
+                <strong>
+                  29th May 2021    <br>  8:30am-11:30am  </strong> </div>
+              <div>ABSENT</div></a>
+            
+          <div>Not the correct attendance? No problem, <a href="Attendance Appeal.html">request for an attendance appeal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-left-homepage">
+    <div class="highlighted-attendance"></div>
+    <div class="div-nav-left"><img src="images/Vector.png"  alt="" class="nav-left-icon">
+      <div class="bold-text-for-nav-left-text"><strong>Attendance</strong></div>
+    </div>
+    <div class="div-nav-left">
+      <a onclick="myCourses()" class="courses w-inline-block"></a><img src="images/bx_bx-book.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">My Courses</div>
+    </div>
+    <div class="div-nav-left">
+      <a onclick="myExamSchedule()" class="exam-schedule w-inline-block"></a><img src="images/ant-design_schedule-outlined.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Exam Schedule</div>
+    </div>
+    <div class="div-nav-left">
+      <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Vector-1.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Grades</div>
+    </div>
+    <div class="div-nav-left"><img src="images/fluent_payment-16-regular.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Payment</div>
+    </div>
+    <div class="div-nav-left"><img src="images/Vector-2.png" alt="" class="nav-left-icon">
+      <div class="nav-left-text">Resources</div>
+    </div>
+    <div class="div-nav-left"><img src="images/bx_bx-news.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Newsletter</div>
+    </div>
+    <div class="div-nav-left"><img src="images/cil_education.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Graduation Apply</div>
+    </div>
+    <div class="div-nav-left"><img src="images/bx_bx-support.png"  alt="" class="nav-left-icon">
+      <div class="nav-left-text">Support</div>
+    </div>
+    <div class="div-nav-left"></div>
+  </div>
+ 
+</body>
+</html>
