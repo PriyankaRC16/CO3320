@@ -1,0 +1,133 @@
+
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <title>Support</title>
+      
+      <link href="newcss1.css" rel="stylesheet" type="text/css">
+      <link href="newcss2.css" rel="stylesheet" type="text/css">
+      <link href="newcss3.css" rel="stylesheet" type="text/css">
+     <script src="studentportal.js"></script>
+     
+    </head>
+    <body class="body" >
+        <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg" width="136" alt="" class="logo-for-sim"></a>
+        <form action="/search" class="search-bar">
+            <div>
+        
+                <input onfocus="searchonfocus()" onblur="searchonblur()" autocomplete="off" type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required="">
+                <div id = "dropdown-search" class="dropdown-search-container" >
+                  <div class="dropdown-search">
+                  <a onclick ="myAttendance()">Attendance</a>
+                </div>
+                <div class="dropdown-search">
+                  <a onclick ="myCourses()">My Courses</a>
+                </div>
+                <div class="dropdown-search">
+                  <a onclick ="myExamSchedule()">Exam Schedule</a>
+                </div>
+                <div class="dropdown-search">
+                  <a onclick ="myGrades()">Grades</a>
+                </div>
+                <div class="dropdown-search">
+                  <a onclick ="Support()">Support</a>
+                </div>
+        
+                <div class="dropdown-search">
+                  <a onclick ="myProfile()">Profile</a>
+                </div>
+              </div>
+              </div>
+            <input type="submit" value="Search" class="button-for-search w-button" style="margin-left:150px;" onclick="searchResults()"></form>
+        <a onclick="myProfile()"><img src="images/Group-180.png" alt="" class="logo-icon"></a>
+      </div>
+      <div class="main-dashboard">
+        <div class="main-div">
+          <h1 class="big-text">Support</h1>
+          <p>Here are some FAQs</p>
+          <br>
+        <section class="faq-container" onclick="faq()">
+            <div class="faq-one">
+
+                <!-- faq question -->
+                <p class="faq-page"><strong>I am unable to log in to SIM Student Portal? What should I do? </strong></p>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Pls write an email to students@sim.edu.sg with the attached screenshots so that we can look into the matter as soon as possible.
+                        We will get back with the response within 3 working days. </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-two">
+
+                <!-- faq question -->
+                <p class="faq-page"><strong>I am unable to view my courses eventhough I have paid for my courses. What should I do?</strong></h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p> 
+                        Pls write an email to students@sim.edu.sg with the attached screenshots so that we can look into the matter as soon as possible.
+                        We will get back with the response within 3 working days.
+                        
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+
+            <div class="faq-three">
+
+                <!-- faq question -->
+                <p class="faq-page"><strong>I did not receive confirmation email when I applied for attendance appeal?</strong></p>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>You can email students@sim.edu.sg for the confirmation.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <br><br>
+        Does not answer any of your questions? No problem!
+        <br> <strong> You can write your enquiry below. Alternatively, you can call +65 12345678</strong><br>
+        <form name="myForm" onsubmit="return validateSupportForm()" method="post" id="email-form" data-name="Email Form">
+            <label for="text" required=""></label>
+        <textarea id="textbox" name="form" rows="4" cols="50" required onkeyup="saveSupport()"></textarea>
+            <br>
+            <input class="button w-button" type="submit" value="Submit" id="submit"></input>
+        </form>
+        </div>
+      </div>
+      <div class="nav-left-homepage">
+        <a onclick="myAttendance()" class="attendance w-inline-block"></a>
+        <div class="div-nav-left"><img src="images/Vector.png" alt="" class="nav-left-icon">
+          <div class="bold-text-for-nav-left-text">Attendance</div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myCourses()" class="courses w-inline-block"></a><img src="images/bx_bx-book.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">My Courses</div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myExamSchedule()" class="exam-schedule w-inline-block"></a><img src="images/ant-design_schedule-outlined.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">Exam Schedule</div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Vector-1.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">Grades</div>
+        </div>
+       
+        <div class="div-nav-left">
+            <a class="highlighted-support w-inline-block"></a><img src="images/bx_bx-support.png"  alt="" class="nav-left-icon">
+          <div class="nav-left-text"><strong>Support</strong></div>
+        </div>
+        <div class="div-nav-left"></div>
+      </div>
+      
+    </body>
+    </html>
+    

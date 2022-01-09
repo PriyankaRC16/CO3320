@@ -1,21 +1,17 @@
-
 <html>
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>Homepage of SIM Portal</title>
-
+  <title>Settings</title>
+ 
+ 
   <link href="newcss1.css" rel="stylesheet" type="text/css">
   <link href="newcss2.css" rel="stylesheet" type="text/css">
   <link href="newcss3.css" rel="stylesheet" type="text/css">
-  
   <script src="studentportal.js"></script>
-     
-     
-
 </head>
 <body class="body">
-  <div class="navigation---top"><img src="images/sim.jpg"  width="136" alt="" class="logo-for-sim">
+    <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg"  width="136" alt="" class="logo-for-sim"></a>
     <form action="/search" class="search-bar">
       <div>
         
@@ -42,36 +38,53 @@
         </div>
       </div>
       </div>
-     
-      <input type="submit" value="Search" class="button-for-search w-button" style="margin-left:150px;" onclick="searchResults()"></form>
-    <a onclick="myProfile()"><img src="images/Group-180.png" alt="" class="logo-icon"></a>
+    
+
+      
+      <input type="submit" value="Search" class="button-for-search w-button" style="margin-left:150px;" onclick="searchResults()">
+    </form><a onclick="myProfile()"><img src="images/Group-180.png" alt="" class="logo-icon"></a>
   </div>
   <div class="main-dashboard">
     <div class="main-div">
-      <h1 class="big-text">Welcome Priyanka</h1>
-      <div class="body-text">Here are your upcoming lessons for this week</div>
+      <h1 class="big-text">Search Results</h1>
       <div class="dashboard-div">
         <div class="cards">
-          <a href="#" class="homepage-cards w-button" style="padding-top:30px; display:flex;">
-              <div style="margin-right:130px">
-              <strong>
-                  1st June 2021    <br>   8:30am - 11:30am    </strong> </div>
-              <div>CO3310 - Artificial Intelligence<br>Blk A, L2.03</div></a>
-          <a href="#" class="homepage-cards w-button" style="padding-top:30px; display:flex;">
-              <div style="margin-right:130px"> <strong>
-                  2nd June 2021    <br>   8:30am - 11:30am    </strong> </div>
-              <div>CO3348 - Interaction Design<br>Blk A, L3.05</div></a>
-          <a href="#" class="homepage-cards w-button" style="padding-top:30px; display:flex;">
-              <div style="margin-right:150px"> <strong>
-                  2nd June 2021    <br>  12pm-3pm   </strong> </div>
-              <div>CO3310 - Artificial Intelligence<br>Blk A, L1.04</div></a>
-                  
-          <a href="#" class="homepage-cards w-button" style="padding-top:30px; display:flex;">
-              <div style="margin-right:150px">
-                   <strong>
-                  3rd June 2021    <br>  7pm-10pm   </strong> </div>
-              <div>CO3323 - Electronic Commerce<br>Blk A, L4.04</div></a>
-        </div><img src="images/Calendar.png"  width="300" alt="" class="calendar-image">
+          Attendance in SIM Student Portal. You can check your attendance rate in the student portal and view your attendance for each of the courses
+          <br><br>
+          <a onclick="myAttendance()"><u>My attendance rate </u></a>
+
+<br><br>
+          My Courses in SIM Student Portal. You can check your enrolled courses in the student portal and view your lecture notes for each of the courses
+          <br><br>
+          <a onclick="myCourses()"><u>My courses</u></a>
+
+
+
+<br><br>
+My Exam Schedule in SIM Student Portal. You can check your exam schedule in the student portal and view your exam schedule
+<br><br>
+<a onclick="myExamSchedule()"><u>My exam schedule</u></a>
+
+
+
+<br><br>
+          My Grades in SIM Student Portal. You can check your grades in the student portal and view your grades for each of the courses
+          <br><br>
+          <a onclick="myGrades()"><u>My grades</u></a>
+
+
+          <br><br>
+          My Support in SIM Student Portal. You can contact student services
+          <br><br>
+          <a onclick="Support()"><u>Support</u></a>
+
+          <br><br>
+          My Profile in SIM Student Portal. You can check your profile
+          <br><br>
+          <a onclick="myProfile()"><u>Profile</u></a>
+
+
+        </div>
       </div>
     </div>
   </div>
@@ -85,19 +98,22 @@
       <div class="nav-left-text">My Courses</div>
     </div>
     <div class="div-nav-left">
-      <a onclick="myExamSchedule()" class="exam-schedule w-inline-block"></a><img src="images/ant-design_schedule-outlined.png"  alt="" class="nav-left-icon">
+      <a onclick="myExamSchedule()" class="exam-schedule w-inline-block"></a>
+      <img src="images/ant-design_schedule-outlined.png"  alt="" class="nav-left-icon">
       <div class="nav-left-text">Exam Schedule</div>
+      
     </div>
     <div class="div-nav-left">
-      <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Vector-1.png" alt="" class="nav-left-icon">
+      <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Vector-1.png"  alt="" class="nav-left-icon">
       <div class="nav-left-text">Grades</div>
     </div>
+    
     <div class="div-nav-left">
       <a onclick="Support()" class="support w-inline-block"></a>
-      <img src="images/bx_bx-support.png"  alt="" class="nav-left-icon">
+      <img src="images/bx_bx-support.png" alt="" class="nav-left-icon">
       <div class="nav-left-text">Support</div>
     </div>
-   
+    <div class="div-nav-left"></div>
   </div>
   
 </body>

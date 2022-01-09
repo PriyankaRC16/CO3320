@@ -13,6 +13,7 @@ body {
   padding-right: 0px;
   -o-object-fit: fill;
   object-fit: fill;
+  cursor: pointer;
 }
 
 .field-label {
@@ -23,7 +24,7 @@ body {
 }
 
 .body {
-  margin-bottom: -405px;
+  
   padding-bottom: 0px;
 }
 
@@ -31,10 +32,11 @@ body {
   position: absolute;
   right:30px;
   top:23px;
-  margin-right: 0px;
+  margin-right: 100px;
   margin-bottom: 0px;
   margin-left: 0px;
   padding-bottom: 0px;
+  cursor: pointer;
 }
 
 .calendar-image {
@@ -75,10 +77,10 @@ body {
 
 .search-bar {
   position: absolute;
-  margin-left:150px;
+  margin-left:400px;
   margin-top:30px;
-  
-  height:10px;
+
+ 
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -89,6 +91,39 @@ body {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+}
+
+.dropdown-search-container{
+  width: 340px;
+  visibility:hidden;
+  min-width: 207px;
+  position: absolute;
+  border: 1px solid #000; 
+  height:240px;
+  left:138px;
+  background-color: #fff;
+  z-index:1;
+  box-sizing: border-box;
+}
+
+.dropdown-search{
+  width: 100%;
+  min-width: 207px;
+  height:39px;
+  padding: 10px;
+  background-color: #fff;
+  
+  
+}
+
+.dropdown-search:not(:last-child){
+  border-bottom: 1px solid #000;
+}
+
+.dropdown-search:hover{
+
+  background-color: #c1fde8;
+  cursor: pointer;
 }
 
 .body-text {
@@ -124,6 +159,7 @@ body {
 .logo-for-sim {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 .navigation---top {
@@ -148,12 +184,14 @@ body {
   left: 17px;
   top: 100px;
   width: 150px;
+  height:80%;
 }
 
 .div-nav-left {
   padding-top: 37px;
   padding-bottom: 0px;
   background-color: transparent;
+  height: calc(100%/5);
 }
 
 .nav-left-text {
@@ -163,11 +201,13 @@ body {
   z-index: 1;
   padding-bottom: 0px;
   color: #000;
+  cursor: pointer;
 }
 
 .nav-left-icon {
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 
 .main-dashboard {
@@ -178,7 +218,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-right: auto;
-  margin-left: 149px;
+  margin-left: 400px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -187,6 +227,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  
 }
 
 .log-in-button {
@@ -356,6 +397,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background-color: #c1fde8;
+  cursor: pointer;
 }
 
 .bold-text-for-nav-left-text {
@@ -419,6 +461,12 @@ body {
   padding-bottom: 8px;
 }
 
+.settings-text {
+  margin-top: -1px;
+  padding-bottom: 8px;
+  width:560px;
+}
+
 .reason-text {
   padding-top: 22px;
 }
@@ -429,6 +477,7 @@ body {
   width: 150px;
   margin-top: -63px;
   padding-top: 62px;
+  cursor: pointer;
 }
 
 .button {
@@ -456,6 +505,7 @@ body {
   margin-top: -15px;
   padding-top: 62px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .courses.w--current {
@@ -470,6 +520,7 @@ body {
   width: 150px;
   margin-top: -15px;
   padding-top: 62px;
+  cursor: pointer;
 }
 
 .grades {
@@ -477,6 +528,15 @@ body {
   width: 150px;
   margin-top: -15px;
   padding-top: 62px;
+  cursor: pointer;
+}
+
+.support {
+  position: absolute;
+  width: 150px;
+  margin-top: -15px;
+  padding-top: 62px;
+  cursor: pointer;
 }
 
 .highlighted-exam-schedule {
@@ -495,6 +555,7 @@ body {
   margin-top: 18px;
   position:relative;
   left:3px;
+  cursor: pointer;
 }
 
 .lecture-notes-text {
@@ -516,7 +577,12 @@ body {
 }
 
 .past-year-paper-text {
-  margin-top: 233px;
+  margin-top: 110px;
+}
+
+
+.class-recordings {
+  margin-top: 100px;
 }
 
 ._2017-za {
@@ -546,6 +612,7 @@ body {
   margin-top: -15px;
   padding-top: 62px;
   background-color: #c1fde8;
+  cursor: pointer;
 }
 
 .highlighted-courses.w--current {
@@ -574,6 +641,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .co3310-button {
@@ -587,6 +655,7 @@ body {
   padding-top: 0px;
   border: 1px solid #009460;
   background-color: #009460;
+  cursor: pointer;
 }
 
 .bold-text {
@@ -667,7 +736,21 @@ body {
   max-width: 160px;
   margin-top: -39px;
   background-color: #c1fde8;
+  cursor: pointer;
 }
+
+.highlighted-support {
+  position: relative;
+  top: 40px;
+  width: 140px;
+  height: 50px;
+  max-width: 160px;
+  margin-top: -39px;
+  background-color: #c1fde8;
+  cursor: pointer;
+}
+
+
 
 .grades-cards {
   position: relative;
@@ -741,6 +824,71 @@ body {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+}
+
+.faq-heading{
+  border-bottom: #000;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-left:-250px;  
+}
+
+.hr-line{
+width: 60%;
+margin: auto;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #000;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+
+}
+.faq-body{
+  margin: auto;
+  /* text-align: center; */
+ width: 50%; 
+ padding: auto;
+ 
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #009460;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
 
 @media screen and (min-width: 1920px) {
@@ -820,6 +968,7 @@ body {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
+    cursor: pointer;
   }
 
   .navigation---top {

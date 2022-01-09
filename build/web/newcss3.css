@@ -352,7 +352,7 @@ textarea.w-select {
   border: 1px solid #cccccc;
   background-color: #fafafa;
 }
-w-grade-button{
+.w-grade-button{
   position: relative;
   top: -130px;
   min-height: 100px;

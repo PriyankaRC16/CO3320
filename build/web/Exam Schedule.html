@@ -9,26 +9,40 @@
   <link href="newcss1.css" rel="stylesheet" type="text/css">
   <link href="newcss2.css" rel="stylesheet" type="text/css">
   <link href="newcss3.css" rel="stylesheet" type="text/css">
-  <script> function myAttendance(){
-         location.replace("View your past attendance.html");
-     }
-
-function myCourses(){
-    location.replace("My Courses.html");
-}
-
-function myGrades(){
-    location.replace("Grades.html");
-}
-function myHomepage(){
-    location.replace("Homepage of SIM Portal.html");
-}
-
-</script>
+  <script src="studentportal.js"></script>
 </head>
 <body class="body">
     <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg"  width="136" alt="" class="logo-for-sim"></a>
-    <form action="/search" class="search-bar"><input type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required=""><input type="submit" value="Search" class="button-for-search w-button"></form><img src="images/Group-180.png" alt="" class="logo-icon">
+    <form action="/search" class="search-bar">
+      <div>
+        
+        <input onfocus="searchonfocus()" onblur="searchonblur()" autocomplete="off" type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required="">
+        <div id = "dropdown-search" class="dropdown-search-container" >
+          <div class="dropdown-search">
+          <a onclick ="myAttendance()">Attendance</a>
+        </div>
+        <div class="dropdown-search">
+          <a onclick ="myCourses()">My Courses</a>
+        </div>
+        <div class="dropdown-search">
+          <a onclick ="myExamSchedule()">Exam Schedule</a>
+        </div>
+        <div class="dropdown-search">
+          <a onclick ="myGrades()">Grades</a>
+        </div>
+        <div class="dropdown-search">
+          <a onclick ="Support()">Support</a>
+        </div>
+
+        <div class="dropdown-search">
+          <a onclick ="myProfile()">Profile</a>
+        </div>
+      </div>
+      </div>
+    
+        
+      <input type="submit" value="Search" class="button-for-search w-button" style="margin-left:150px;" onclick="searchResults()"></form>
+    <a onclick="myProfile()"><img src="images/Group-180.png" alt="" class="logo-icon"></a>
   </div>
   <div class="main-dashboard">
     <div class="main-div">
@@ -80,22 +94,13 @@ function myHomepage(){
       <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Vector-1.png"  alt="" class="nav-left-icon">
       <div class="nav-left-text">Grades</div>
     </div>
-    <div class="div-nav-left"><img src="images/fluent_payment-16-regular.png" alt="" class="nav-left-icon">
-      <div class="nav-left-text">Payment</div>
-    </div>
-    <div class="div-nav-left"><img src="images/Vector-2.png" alt="" class="nav-left-icon">
-      <div class="nav-left-text">Resources</div>
-    </div>
-    <div class="div-nav-left"><img src="images/bx_bx-news.png" alt="" class="nav-left-icon">
-      <div class="nav-left-text">Newsletter</div>
-    </div>
-    <div class="div-nav-left"><img src="images/cil_education.png" alt="" class="nav-left-icon">
-      <div class="nav-left-text">Graduation Apply</div>
-    </div>
-    <div class="div-nav-left"><img src="images/bx_bx-support.png" alt="" class="nav-left-icon">
+    
+    <div class="div-nav-left">
+      <a onclick="Support()" class="support w-inline-block"></a>
+      <img src="images/bx_bx-support.png" alt="" class="nav-left-icon">
       <div class="nav-left-text">Support</div>
     </div>
-    <div class="div-nav-left"></div>
+    
   </div>
   
 </body>
