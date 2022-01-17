@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
       <meta content="width=device-width, initial-scale=1" name="viewport">
-      <title>Attendance Appeal Tracking</title>
+      <title>Attendance Appeal Success</title>
       
        <link href="Components Styling.css" rel="stylesheet" type="text/css">
       <link href="Global Styling.css" rel="stylesheet" type="text/css">
@@ -49,8 +49,12 @@
           <h1 class="big-text">Success!</h1> 
           <div class="dashboard-div">
             <div class="w-form">
-                <h3>Your Enquiry Number: 12345678</h3>
-                <br><br><br><img src="images/Tracking Image.png"></margin>
+                <h3>Your attendance appeal has been successfully requested</h3>
+                <strong>A confirmation of your attendance request appeal has been sent to your email. A SIM Staff will look into the matter and will contact <br>you directly via email. Your enquiry number is 12345678 </strong><br><br><br>
+                <br><a onclick="attendanceAppealTracking()"><u>You can view your attendance appeal request</u></a> <br>
+                <label>Date and Time: <span id="datetime">  </span> </label>  
+                <label>Reason: <span id="reason">  </span> </label> 
+                <label>File: <span id="file">  </span> </label> 
                 <button class="button w-button" onclick="myHomepage()"> Back to homepage </button>
             </div>
           </div>

@@ -2,8 +2,20 @@ function searchResults(){
     location.replace("Search Results.html");
 }
 
-function attendanceAppealStatus(){
-    location.replace("Attendance Appeal Tracking.html");
+function attendanceAppealSuccess(){
+    location.replace("Attendance Success.html");
+}
+
+function supportSuccessTracking(){
+  location.replace("Support Success Tracking.html");
+}
+
+function viewArtificialIntelligenceGrades(){
+  location.replace("Artificial Intelligence Grades.html");
+}
+
+function attendanceAppealTracking(){
+  location.replace("Attendance Appeal Tracking.html");
 }
 
 function myAttendance(){
@@ -23,6 +35,7 @@ function myHomepage(){
 function myProfile(){
 location.replace("Settings.html");
 }
+
 
 function artificialIntelligence(){
 location.replace("Artificial Intelligence Course.html");
@@ -55,7 +68,7 @@ function Support(){
             window.localStorage.setItem('reason',reason);
             file=file.substring(file.lastIndexOf('\\')+1,file.length);
             window.localStorage.setItem('file',file);
-           window.open('Attendance Appeal Tracking.html');
+           window.open('Attendance Success.html');
         }
     }
 
