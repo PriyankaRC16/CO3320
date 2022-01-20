@@ -548,6 +548,7 @@ body {
   margin-left: -10px;
   border: 1px solid #DEECE7;
   background-color: #DEECE7;
+  cursor: pointer;
 }
 
 .co3310 {
@@ -563,7 +564,7 @@ body {
   margin-top: 50px;
 }
 
-.co3310-lecture-1 {
+.lecture notes {
   position: relative;
   top: 28px;
   align-content: space-evenly;
@@ -668,6 +669,7 @@ body {
   margin-left: 183px;
   position:relative;
   left:4px;
+  cursor: pointer;
 }
 
 .co3348-button {
@@ -681,14 +683,16 @@ body {
   margin-left: -167px;
   border: 1px solid #009460;
   background-color: #009460;
+  cursor: pointer;
 }
 
 .co3311 {
   position: relative;
-  left: -470px;
+  left: -490px;
   top: 325px;
   margin-top: 7px;
   margin-left: -237px;
+  cursor: pointer;
 }
 
 .co3311-button {
@@ -699,9 +703,10 @@ body {
   height: 56px;
   margin-top: -60px;
   margin-bottom: 68px;
-  margin-left: -94px;
+  margin-left: -115px;
   border: 1px solid #009460;
   background-color: #009460;
+  cursor: pointer;
 }
 
 .co3323 {
@@ -710,7 +715,8 @@ body {
   top: 325px;
   width: 177px;
   margin-top: 7px;
-  margin-left: -147px;
+  margin-left: -132px;
+  cursor: pointer;
 }
 
 .co3323-button {
@@ -721,8 +727,10 @@ body {
   height: 54px;
   margin-top: -44px;
   margin-bottom: 126px;
+  
   border: 1px solid #009460;
   background-color: #009460;
+  cursor: pointer;
 }
 
 .image-105 {

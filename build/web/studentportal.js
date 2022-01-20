@@ -14,6 +14,14 @@ function viewArtificialIntelligenceGrades(){
   location.replace("Artificial Intelligence Grades.html");
 }
 
+function viewInteractionDesignGrades(){
+  location.replace("Interaction Design Grades.html");
+}
+
+function viewNeuralNetworksGrades(){
+  location.replace("Neural Networks Grades.html");
+}
+
 function attendanceAppealTracking(){
   location.replace("Attendance Appeal Tracking.html");
 }
@@ -36,11 +44,33 @@ function myProfile(){
 location.replace("Settings.html");
 }
 
-
-function artificialIntelligence(){
-location.replace("Artificial Intelligence Course.html");
-
+function artificialIntelligenceattendance(){
+location.replace("CO3310 attendance.html");
 }
+
+function electronicCommerceattendance(){
+  location.replace("CO3323 attendance.html");
+  }
+
+  function neuralNetworksattendance(){
+    location.replace("CO3311 attendance.html");
+    }
+
+function artificialIntelligencecourse(){
+location.replace("Artificial Intelligence Course.html");
+}
+
+function interactionDesigncourse(){
+  location.replace("Interaction Design Course.html");
+  }
+
+  function electronicCommercecourse(){
+    location.replace("Electronic Commerce Course.html");
+    }
+
+    function neuralNetworkscourse(){
+      location.replace("Neural Networks Course.html");
+      }
 
 function Support(){
         location.replace("Support.html");
@@ -50,9 +80,9 @@ function Support(){
         location.replace("My Courses.html");
     }
 
-    function interactionDesign(){
+    function interactionDesignattendance(){
 
-        location.replace("CO3348 Interaction Design.html");
+        location.replace("CO3348 attendance.html");
     }
 
     function validateattendanceForm() {

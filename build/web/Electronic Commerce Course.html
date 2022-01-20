@@ -1,0 +1,94 @@
+
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <title>My Courses</title>
+      
+      <link href="Components Styling.css" rel="stylesheet" type="text/css">
+      <link href="Global Styling.css" rel="stylesheet" type="text/css">
+     <script src="studentportal.js"></script>
+     
+    </head>
+    <body class="body">
+        <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg" width="136" alt="" class="logo-for-sim"></a>
+        <form action="/search" class="search-bar">
+          <div>
+            
+            <input onfocus="searchonfocus()" onblur="searchonblur()" autocomplete="off" type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required="">
+            <div id = "dropdown-search" class="dropdown-search-container" >
+              <div class="dropdown-search">
+              <a onclick ="myAttendance()">Attendance</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="myCourses()">My Courses</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="myExamSchedule()">Exam Schedule</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="myGrades()">Grades</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="Support()">Support</a>
+            </div>
+    
+            <div class="dropdown-search">
+              <a onclick ="myProfile()">Profile</a>
+            </div>
+          </div>
+          </div>
+          <input type="submit" value="Search" class="button-for-search w-button" style="margin-left:150px;" onclick="searchResults()">
+        
+        
+        
+        
+        </form>
+        <a onclick="myProfile()"><img src="images/Profile.png" alt="" class="logo-icon"></a>
+      </div>
+      <div class="main-dashboard">
+        <div class="main-div">
+          <h1 class="big-text">Electronic Commerce</h1>
+          <div class="lecture-notes-text">Lecture Notes</div><br>
+          <a href="documents/CO3323 L1.pdf" class="lecture notes" download>Electronic Commerce Lecture 1</a><br><br><br>
+          
+        
+          
+          <div class="class-recordings">Class recordings</div><br>
+          <a href="https://www.youtube.com/watch?v=xXAbcWGRXGs"> CO3323 Course Session 1 </a><br><br><br>
+          
+          
+          <div class="past-year-paper-text">Past Year Papers</div>
+          <a href="documents/CO3323 exp 2019.pdf" class="_2017-za" download>2019 ZA Past Year Paper</a>
+        </div>
+      </div>
+      <div class="nav-left-homepage">
+        
+        <a onclick="myAttendance()" class="attendance w-inline-block"></a>
+        <div class="div-nav-left"><img src="images/Attendance.png" alt="" class="nav-left-icon">
+          <div class="bold-text-for-nav-left-text">Attendance</div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myCourses()" class="highlighted-courses w-inline-block"></a><img src="images/My Courses.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text"><strong>My Courses</strong></div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myExamSchedule()" class="exam-schedule w-inline-block"></a><img src="images/Exam Schedule.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">Exam Schedule</div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myGrades()" class="grades w-inline-block"></a><img src="images/Grades.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">Grades</div>
+        </div>
+        
+        <div class="div-nav-left">
+          <a onclick="Support()" class="support w-inline-block"></a>
+          <img src="images/Support.png"  alt="" class="nav-left-icon">
+          <div class="nav-left-text">Support</div>
+        </div>
+      
+      </div>
+      
+    </body>
+    </html>
+    
