@@ -1,0 +1,105 @@
+
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <title>Attendance Appeal</title>
+      
+       <link href="Components Styling.css" rel="stylesheet" type="text/css">
+      <link href="Global Styling.css" rel="stylesheet" type="text/css">
+      <script src="studentportal.js"></script>
+    
+    </head>
+    <body class="body">
+        <div class="navigation---top"><a onclick="myHomepage()"><img src="images/sim.jpg"  width="136" alt="" class="logo-for-sim"></a>
+        <form action="/search" class="search-bar">
+    
+          <div>
+            
+            <input onfocus="searchonfocus()" onblur="searchonblur()" autocomplete="off" type="search" class="input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required="">
+            <div id = "dropdown-search" class="dropdown-search-container" >
+              <div class="dropdown-search">
+              <a onclick ="myAttendance()">Attendance</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="myCourses()">My Courses</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="myExamSchedule()">Exam Schedule</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="myGrades()">Grades</a>
+            </div>
+            <div class="dropdown-search">
+              <a onclick ="Support()">Support</a>
+            </div>
+    
+            <div class="dropdown-search">
+              <a onclick ="myProfile()">Profile</a>
+            </div>
+          </div>
+          </div>
+          
+          <input type="submit" value="Search" class="button-for-search w-button" style="margin-left:150px;" onclick="searchResults()">
+        </form>
+        <a onclick="myProfile()"><img src="images/Profile.png" alt="" class="logo-icon"></a>
+      </div>
+      <div class="main-dashboard">
+        <div class="main-div">
+          <h1 class="big-text">Attendance Appeal</h1> 
+          <h3>CO3311 Neural Networks</h3>
+          <div class="dashboard-div">
+            <div class="w-form">
+              <form name="myForm" onsubmit="return validateattendanceForm()" method="post" id="email-form" data-name="Email Form">
+    
+                  <!-- Date/Time -->
+                  <label for="text" class="date-and-time-text">Date and Time of your Lecture?*</label>
+                  <input type="datetime" class="text-field w-input" maxlength="256" name="form" data-name="Name" placeholder="" id="datetime" required="">
+    
+                  <!-- Reason -->
+                  <label for="text" class="reason-text">Reason*</label>
+                  <input type="text" class="w-input" maxlength="256" name="form" data-name="Email" placeholder="" id="reason" required="">
+    
+                  <label for="myfile">Attach any supporting documents</label>
+                  <input type="file" id="myfile" name="myfile" onchange="savefilename($event)"><br><br>
+        <input class="button w-button" type="submit" value="Submit">                                                  
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-left-homepage">
+        
+        <a onclick="myAttendance()" class="highlighted-attendance w-inline-block"></a>
+        <div class="div-nav-left"><img src="images/Attendance.png"  alt="" class="nav-left-icon">
+          <div class="bold-text-for-nav-left-text"><strong>Attendance</strong></div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myCourses()" class="courses w-inline-block"></a><img src="images/My Courses.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">My Courses</div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myExamSchedule()"  class="exam-schedule w-inline-block"></a><img src="images/Exam Schedule.png"  alt="" class="nav-left-icon">
+          <div class="nav-left-text">Exam Schedule</div>
+        </div>
+        <div class="div-nav-left">
+          <a onclick="myGrades()"  class="grades w-inline-block"></a><img src="images/Grades.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">Grades</div>
+        </div>
+        
+        <div class="div-nav-left">
+          <a onclick="Support()" class="support w-inline-block"></a>
+          <img src="images/Support.png" alt="" class="nav-left-icon">
+          <div class="nav-left-text">Support</div>
+        </div>
+        
+      </div>
+      
+    </body>
+    </html>
