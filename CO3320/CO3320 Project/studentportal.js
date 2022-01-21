@@ -22,6 +22,10 @@ function viewNeuralNetworksGrades(){
   location.replace("Neural Networks Grades.html");
 }
 
+function viewElectronicCommerceGrades(){
+  location.replace("Electronic Commerce Grades.html");
+}
+
 function attendanceAppealTracking(){
   location.replace("Attendance Appeal Tracking.html");
 }

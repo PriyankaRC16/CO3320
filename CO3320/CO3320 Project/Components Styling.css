@@ -24,7 +24,6 @@ body {
 }
 
 .body {
-  
   padding-bottom: 0px;
 }
 
@@ -79,8 +78,6 @@ body {
   position: absolute;
   margin-left:310px;
   margin-top:30px;
-
- 
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -112,8 +109,6 @@ body {
   height:39px;
   padding: 10px;
   background-color: #fff;
-  
-  
 }
 
 .dropdown-search:not(:last-child){
@@ -121,7 +116,6 @@ body {
 }
 
 .dropdown-search:hover{
-
   background-color: #c1fde8;
   cursor: pointer;
 }
@@ -238,20 +232,8 @@ body {
   background-color: #009460;
 }
 
-.forgot-password-text {
-  position: absolute;
-  top: 190px;
-  margin-top: 13px;
-  margin-left: 44px;
-}
-
 .heading-sim-portal {
   color: #009460;
-}
-
-.question-mark-icon {
-  position: absolute;
-  top: 195px;
 }
 
 .email-address-text-field {
@@ -509,12 +491,7 @@ body {
   cursor: pointer;
 }
 
-.courses.w--current {
-  left: -3px;
-  top: 38px;
-  margin-top: -18px;
-  background-color: #c1fde8;
-}
+
 
 .exam-schedule {
   position: absolute;
@@ -570,13 +547,6 @@ body {
   align-content: space-evenly;
 }
 
-.co3310-lecture-2 {
-  position: absolute;
-  left: 340px;
-  top: 218px;
-  
-  
-}
 
 .past-year-paper-text {
   margin-top: 110px;
@@ -592,16 +562,6 @@ body {
   top: 36px;
 }
 
-.co3310-lecture-3 {
-  position: absolute;
-  left: 200px;
-  top: 228px;
-  margin-top: 41px;
-  margin-bottom: -29px;
-  margin-left: 33px;
-  align-content: space-evenly;
-}
-
 ._2017-zb {
   position: relative;
   left: -165px;
@@ -615,13 +575,6 @@ body {
   padding-top: 62px;
   background-color: #DEECE7;
   cursor: pointer;
-}
-
-.highlighted-courses.w--current {
-  left: -3px;
-  top: 38px;
-  margin-top: -18px;
-  background-color: #DEECE7;
 }
 
 .attendance {
@@ -1080,21 +1033,11 @@ margin: auto;
     background-color: #009460;
   }
 
-  .forgot-password-text {
-    position: relative;
-    left: 43px;
-    top: 65px;
-  }
 
   .heading-sim-portal {
     position: relative;
     left: 0px;
     color: #009460;
-  }
-
-  .question-mark-icon {
-    position: relative;
-    top: 236px;
   }
 
   .main-columns {
