@@ -796,10 +796,6 @@ body {
   align-items: stretch;
 }
 
-.faq-heading{
-  border-bottom: #000;
-  padding: 20px 60px;
-}
 .faq-container{
 display: flex;
 justify-content: center;
