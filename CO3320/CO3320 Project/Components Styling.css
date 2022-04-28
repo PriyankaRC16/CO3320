@@ -608,17 +608,17 @@ body {
 }
 
 .co3310-button {
-  position: relative;
+  margin-left: -177px;
+  margin-top: -99px;
+  border: 1px solid #009460;
+  padding-top: 0px;
+  margin-bottom: 79px;
+  height: 50px;
   top: 126px;
   width: 177px;
-  height: 50px;
-  margin-top: -99px;
-  margin-bottom: 79px;
-  margin-left: -177px;
-  padding-top: 0px;
-  border: 1px solid #009460;
   background-color: #009460;
   cursor: pointer;
+  position: relative;
 }
 
 .bold-text {
@@ -634,39 +634,39 @@ body {
 }
 
 .co3348-button {
+  border: 1px solid #009460;
   position: relative;
+  margin-bottom: 137px;
   left: -3px;
+  margin-left: -167px;
   top: 130px;
   width: 171px;
+  background-color: #009460;
   height: 55px;
   margin-top: -115px;
-  margin-bottom: 137px;
-  margin-left: -167px;
-  border: 1px solid #009460;
-  background-color: #009460;
   cursor: pointer;
 }
 
 .co3311 {
-  position: relative;
-  left: -490px;
-  top: 325px;
-  margin-top: 7px;
   margin-left: -237px;
+  top: 325px;
+  left: -490px;
   cursor: pointer;
+  position: relative;
+  margin-top: 7px;
 }
 
 .co3311-button {
+  margin-bottom: 68px;
   position: relative;
   left: -549px;
+  margin-left: -115px;
   top: 454px;
+  border: 1px solid #009460;
   width: 170px;
+  background-color: #009460;
   height: 56px;
   margin-top: -60px;
-  margin-bottom: 68px;
-  margin-left: -115px;
-  border: 1px solid #009460;
-  background-color: #009460;
   cursor: pointer;
 }
 
@@ -681,17 +681,16 @@ body {
 }
 
 .co3323-button {
-  position: relative;
-  left: -175px;
-  top: 454px;
   width: 177px;
-  height: 54px;
-  margin-top: -44px;
-  margin-bottom: 126px;
-  
+  top: 454px;
   border: 1px solid #009460;
+  margin-bottom: 126px;
+  margin-top: -44px;
+  height: 54px;
   background-color: #009460;
+  left: -175px;
   cursor: pointer;
+  position: relative;
 }
 
 .image-105 {
@@ -723,18 +722,18 @@ body {
 
 
 .grades-cards {
+  padding-bottom: 0px;
+  min-height: 100px;
   position: relative;
   top: -130px;
-  min-height: 100px;
-  min-width: 500px;
-  margin-top: 30px;
-  margin-bottom: 128px;
-  margin-left: 149px;
-  padding-bottom: 0px;
   border: 1px solid #13573f;
+  margin-left: 149px;
+  min-width: 500px;
   background-color: #13573f !important;
   font-size: 17px;
+  margin-top: 30px;
   font-weight: 700;
+  margin-bottom: 128px;
   white-space: normal;
 }
 
